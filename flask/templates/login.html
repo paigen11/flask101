@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script type='text/javascript'>
+		console.log("Hey world!")
+		// alert("Hey world!")
+	</script>
+</head>
+<body>
+
+	<h1>HTML is cooler than Python and Node.</h1>
+
+	<h3>Title: {{title}}</h3>
+	<h3>Wannabe Title: {{wannabetitle}}</h3>
+	{% for key, value in a_dict.iteritems() %}
+		<h4>{{key, value}}</h4>
+	{% endfor %}	
+
+	{% for i in a_list %}
+		<h4>{{i}}</h4>
+	{% endfor %}	
+
+</body>
+</html>
